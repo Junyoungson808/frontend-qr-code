@@ -14,9 +14,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
+
       <main className={`${styles.main} ${inter.className}`}>
-
-
+        
         <div className={styles.card}>
           <div className={styles.cardContent}>
             <Image
@@ -26,7 +26,7 @@ export default function Home() {
               width={260}
               height={260}
             />
-          
+
             <h2 className={styles.h2}>
               Improve your front-end skills by building projects
             </h2>
